@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Credit Card-->
+        <scene sceneID="hxd-85-HM6">
+            <objects>
+                <viewController storyboardIdentifier="VC_CreditCard" id="ZN4-u6-16J" customClass="VC_CreditCard" customModule="ST_Ecommerce" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v9f-Lx-32Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="193" translatesAutoresizingMaskIntoConstraints="NO" id="3LY-ao-0Ey" customClass="TinyCreditCardView" customModule="ST_Ecommerce" customModuleProvider="target">
+                                <rect key="frame" x="10" y="69" width="394" height="193"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3LY-ao-0Ey" firstAttribute="leading" secondItem="qwb-Ad-knE" secondAttribute="leading" constant="10" id="aEV-Td-UJd"/>
+                            <constraint firstItem="qwb-Ad-knE" firstAttribute="trailing" secondItem="3LY-ao-0Ey" secondAttribute="trailing" constant="10" id="m6u-tl-V8X"/>
+                            <constraint firstItem="3LY-ao-0Ey" firstAttribute="top" secondItem="qwb-Ad-knE" secondAttribute="top" constant="25" id="oNp-xP-diH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qwb-Ad-knE"/>
+                    </view>
+                    <connections>
+                        <outlet property="creditCardview" destination="3LY-ao-0Ey" id="2SX-Lv-V6n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aop-jw-eEL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="62" y="143"/>
+        </scene>
+    </scenes>
+</document>

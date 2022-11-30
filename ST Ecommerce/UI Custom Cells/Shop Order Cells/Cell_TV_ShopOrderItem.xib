@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+        <array key="Lexend-Regular.ttf">
+            <string>Lexend-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="343" id="KGk-i7-Jjw" customClass="Cell_TV_ShopOrderItem" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="343"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="376" height="343"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OiU-Xl-Z1L">
+                        <rect key="frame" x="10" y="10" width="356" height="286"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="2bD-7r-MfI">
+                                <rect key="frame" x="0.0" y="0.0" width="356" height="81"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EoN-Qf-sU4">
+                                        <rect key="frame" x="0.0" y="0.0" width="36" height="19"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="36" id="3d7-9C-O5I"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="15"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="kmp-to-AFm">
+                                        <rect key="frame" x="40" y="0.0" width="202" height="80"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cartoon pattern pajamas, short-sleeved suit, cottons, breathable &amp; comfortable" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j65-hT-4Qq">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="80"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 MMK" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Dbu-zI-Dlt">
+                                        <rect key="frame" x="246" y="0.0" width="110" height="19"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="hdr-DX-Ncq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="15"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAW-dT-b2V">
+                                <rect key="frame" x="0.0" y="91" width="356" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ChZ-5q-qYj" customClass="SelfSizingTableView" customModule="ST_Ecommerce" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="101" width="356" height="147.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wse-dV-9ld">
+                                <rect key="frame" x="0.0" y="258.5" width="356" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sold By" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZT-vF-IRS">
+                                <rect key="frame" x="0.0" y="268.5" width="356" height="17.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="14"/>
+                                <color key="textColor" red="0.45490196078431372" green="0.45490196078431372" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MEL-t8-aMl" customClass="RoundedView" customModule="ST_Ecommerce" customModuleProvider="target">
+                        <rect key="frame" x="10" y="306" width="80" height="32"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Review" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07q-lB-NNH">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="32"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="07q-lB-NNH" firstAttribute="top" secondItem="MEL-t8-aMl" secondAttribute="top" id="On0-bG-RA7"/>
+                            <constraint firstAttribute="height" constant="32" id="bcG-kk-BMV"/>
+                            <constraint firstAttribute="width" constant="80" id="l6b-aw-con"/>
+                            <constraint firstAttribute="trailing" secondItem="07q-lB-NNH" secondAttribute="trailing" id="m9h-sN-oJP"/>
+                            <constraint firstItem="07q-lB-NNH" firstAttribute="leading" secondItem="MEL-t8-aMl" secondAttribute="leading" id="oTR-Wi-OaC"/>
+                            <constraint firstAttribute="bottom" secondItem="07q-lB-NNH" secondAttribute="bottom" id="rlH-8f-bEb"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="1" green="0.73333333329999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ouf-mQ-UdS" userLabel="Separator">
+                        <rect key="frame" x="16" y="342" width="344" height="1"/>
+                        <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="xFC-Bd-ndL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Ouf-mQ-UdS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="0OF-un-JKc"/>
+                    <constraint firstItem="MEL-t8-aMl" firstAttribute="leading" secondItem="OiU-Xl-Z1L" secondAttribute="leading" id="G5I-de-YOe"/>
+                    <constraint firstItem="Ouf-mQ-UdS" firstAttribute="top" secondItem="MEL-t8-aMl" secondAttribute="bottom" constant="4" id="GEp-h0-GtV"/>
+                    <constraint firstAttribute="trailing" secondItem="OiU-Xl-Z1L" secondAttribute="trailing" constant="10" id="Jcb-1x-U0I"/>
+                    <constraint firstAttribute="bottom" secondItem="Ouf-mQ-UdS" secondAttribute="bottom" id="O3y-TG-0s4"/>
+                    <constraint firstItem="OiU-Xl-Z1L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="vda-jj-wka"/>
+                    <constraint firstItem="OiU-Xl-Z1L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="vfT-LU-Kdu"/>
+                    <constraint firstItem="MEL-t8-aMl" firstAttribute="top" secondItem="OiU-Xl-Z1L" secondAttribute="bottom" constant="10" id="yHb-xL-hFc"/>
+                    <constraint firstAttribute="trailing" secondItem="Ouf-mQ-UdS" secondAttribute="trailing" constant="16" id="yYb-JG-RnT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="extraChargeTableView" destination="ChZ-5q-qYj" id="71a-3U-rfV"/>
+                <outlet property="itemNameLabel" destination="j65-hT-4Qq" id="WwS-H2-ci6"/>
+                <outlet property="priceLabel" destination="Dbu-zI-Dlt" id="1Vp-L0-ksq"/>
+                <outlet property="quantityLabel" destination="EoN-Qf-sU4" id="Um9-be-J8k"/>
+                <outlet property="reviewButton" destination="MEL-t8-aMl" id="hgJ-fm-3Ll"/>
+                <outlet property="reviewButtonHeight" destination="bcG-kk-BMV" id="5n6-kr-oRf"/>
+                <outlet property="soldByLabel" destination="pZT-vF-IRS" id="6wc-7t-IdM"/>
+                <outlet property="specialInstLabel" destination="wse-dV-9ld" id="m9P-mJ-nuv"/>
+                <outlet property="variantLabel" destination="fAW-dT-b2V" id="K8S-BO-ebJ"/>
+            </connections>
+            <point key="canvasLocation" x="176.81159420289856" y="78.683035714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

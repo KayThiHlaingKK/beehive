@@ -1,0 +1,6 @@
+framework module MapboxDirections {
+  umbrella header "MapboxDirections-umbrella.h"
+
+  export *
+  module * { export * }
+}

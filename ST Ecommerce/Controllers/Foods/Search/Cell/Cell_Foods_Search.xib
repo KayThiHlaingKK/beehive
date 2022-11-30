@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="LATO-BOLD.TTF">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lexend-Bold.ttf">
+            <string>Lexend-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="Cell_Foods_Search" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell_Foods_Search" rowHeight="147" id="KGk-i7-Jjw" customClass="Cell_Foods_Search" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="464" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="464" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jly-Ln-Geu">
+                        <rect key="frame" x="10" y="10" width="444" height="111"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="UsV-C4-3mh">
+                                <rect key="frame" x="10" y="9.5" width="100" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="6Hb-hH-dt0"/>
+                                    <constraint firstAttribute="width" secondItem="UsV-C4-3mh" secondAttribute="height" multiplier="1:1" constant="8" id="qeh-gn-snI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ihy-u6-d2e">
+                                <rect key="frame" x="115" y="15" width="319" height="81"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veggy loaded pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RZ-GG-awS">
+                                        <rect key="frame" x="5" y="0.0" width="304" height="20"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHp-hc-ugt" customClass="CosmosView" customModule="Cosmos">
+                                        <rect key="frame" x="194" y="0.0" width="120" height="20"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="2EG-Wc-WsX"/>
+                                            <constraint firstAttribute="width" secondItem="aHp-hc-ugt" secondAttribute="height" multiplier="6:1" id="W85-hc-up1"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                                <color key="value" red="1" green="0.74117647060000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="filledBorderColor">
+                                                <color key="value" red="1" green="0.74117647060000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vegg" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Anj-4S-zlx">
+                                        <rect key="frame" x="5" y="30" width="304" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Veggy loaded pizza" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLm-9j-chU">
+                                        <rect key="frame" x="5" y="30" width="304" height="16"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Veggy loaded " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqh-YV-PTR">
+                                        <rect key="frame" x="5" y="50.5" width="304" height="25.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="oqh-YV-PTR" firstAttribute="top" secondItem="Anj-4S-zlx" secondAttribute="bottom" constant="6" id="6ev-vc-3Vq"/>
+                                    <constraint firstAttribute="trailing" secondItem="aHp-hc-ugt" secondAttribute="trailing" constant="5" id="9cl-re-Cjk"/>
+                                    <constraint firstAttribute="trailing" secondItem="oqh-YV-PTR" secondAttribute="trailing" constant="10" id="AEe-mo-f3b"/>
+                                    <constraint firstAttribute="trailing" secondItem="Anj-4S-zlx" secondAttribute="trailing" constant="10" id="BPX-g6-UUp"/>
+                                    <constraint firstItem="aHp-hc-ugt" firstAttribute="top" secondItem="Ihy-u6-d2e" secondAttribute="top" id="Ica-pf-7DP"/>
+                                    <constraint firstItem="Anj-4S-zlx" firstAttribute="top" secondItem="6RZ-GG-awS" secondAttribute="bottom" constant="10" id="diP-nu-dF6"/>
+                                    <constraint firstItem="ZLm-9j-chU" firstAttribute="leading" secondItem="Ihy-u6-d2e" secondAttribute="leading" constant="5" id="eka-Wa-BBE"/>
+                                    <constraint firstItem="oqh-YV-PTR" firstAttribute="leading" secondItem="Ihy-u6-d2e" secondAttribute="leading" constant="5" id="hss-EI-dQY"/>
+                                    <constraint firstItem="Anj-4S-zlx" firstAttribute="leading" secondItem="Ihy-u6-d2e" secondAttribute="leading" constant="5" id="iQZ-2P-UwI"/>
+                                    <constraint firstItem="ZLm-9j-chU" firstAttribute="top" secondItem="6RZ-GG-awS" secondAttribute="bottom" constant="10" id="j0I-Xp-96o"/>
+                                    <constraint firstAttribute="trailing" secondItem="6RZ-GG-awS" secondAttribute="trailing" constant="10" id="rSU-K3-iQ1"/>
+                                    <constraint firstAttribute="bottom" secondItem="oqh-YV-PTR" secondAttribute="bottom" constant="5" id="u8d-G0-zUn"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZLm-9j-chU" secondAttribute="trailing" constant="10" id="uet-k5-DOR"/>
+                                    <constraint firstItem="6RZ-GG-awS" firstAttribute="top" secondItem="Ihy-u6-d2e" secondAttribute="top" id="xpt-MB-VqI"/>
+                                    <constraint firstItem="6RZ-GG-awS" firstAttribute="leading" secondItem="Ihy-u6-d2e" secondAttribute="leading" constant="5" id="ywf-MM-wex"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ihy-u6-d2e" firstAttribute="leading" secondItem="UsV-C4-3mh" secondAttribute="trailing" constant="5" id="65Q-kd-Inc"/>
+                            <constraint firstItem="UsV-C4-3mh" firstAttribute="centerY" secondItem="Jly-Ln-Geu" secondAttribute="centerY" id="HVV-s5-P5j"/>
+                            <constraint firstItem="UsV-C4-3mh" firstAttribute="leading" secondItem="Jly-Ln-Geu" secondAttribute="leading" constant="10" id="P3h-Sh-wNs"/>
+                            <constraint firstAttribute="trailing" secondItem="Ihy-u6-d2e" secondAttribute="trailing" constant="10" id="RKI-rn-ny0"/>
+                            <constraint firstItem="Ihy-u6-d2e" firstAttribute="centerY" secondItem="Jly-Ln-Geu" secondAttribute="centerY" id="VlR-a3-mv4"/>
+                            <constraint firstItem="Ihy-u6-d2e" firstAttribute="top" secondItem="Jly-Ln-Geu" secondAttribute="top" constant="15" id="emW-QW-O5F"/>
+                            <constraint firstAttribute="bottom" secondItem="Ihy-u6-d2e" secondAttribute="bottom" constant="15" id="sqh-3B-LYR"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4JW-2k-jbR" userLabel="up">
+                        <rect key="frame" x="10" y="10" width="444" height="111"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open at :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3b-PJ-TM4">
+                                <rect key="frame" x="186.5" y="46" width="71" height="19"/>
+                                <fontDescription key="fontDescription" name="Lexend-Bold" family="Lexend" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.5" alpha="0.60332160599999995" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="t3b-PJ-TM4" firstAttribute="centerX" secondItem="4JW-2k-jbR" secondAttribute="centerX" id="kIb-lY-a3M"/>
+                            <constraint firstItem="t3b-PJ-TM4" firstAttribute="centerY" secondItem="4JW-2k-jbR" secondAttribute="centerY" id="tZn-h2-GTF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="4JW-2k-jbR" firstAttribute="trailing" secondItem="Jly-Ln-Geu" secondAttribute="trailing" id="19y-kN-EJT"/>
+                    <constraint firstItem="4JW-2k-jbR" firstAttribute="leading" secondItem="Jly-Ln-Geu" secondAttribute="leading" id="7zF-bC-M5S"/>
+                    <constraint firstItem="Jly-Ln-Geu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="DwZ-MM-2W5"/>
+                    <constraint firstAttribute="bottom" secondItem="Jly-Ln-Geu" secondAttribute="bottom" id="Qae-Fk-LCu"/>
+                    <constraint firstItem="4JW-2k-jbR" firstAttribute="top" secondItem="Jly-Ln-Geu" secondAttribute="top" id="d9L-8Z-N7u"/>
+                    <constraint firstItem="Jly-Ln-Geu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="lfb-zo-YCE"/>
+                    <constraint firstItem="4JW-2k-jbR" firstAttribute="bottom" secondItem="Jly-Ln-Geu" secondAttribute="bottom" id="s9g-Ry-41V"/>
+                    <constraint firstAttribute="trailing" secondItem="Jly-Ln-Geu" secondAttribute="trailing" constant="10" id="w0z-jX-trt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="addressLbl" destination="oqh-YV-PTR" id="ouT-Fx-52W"/>
+                <outlet property="categoryLbl" destination="ZLm-9j-chU" id="sAC-uj-Ukx"/>
+                <outlet property="imgView" destination="UsV-C4-3mh" id="Vmt-zh-zdm"/>
+                <outlet property="nameLbl" destination="6RZ-GG-awS" id="Xaf-zc-hmk"/>
+                <outlet property="openLbl" destination="t3b-PJ-TM4" id="urJ-xC-xN6"/>
+                <outlet property="openView" destination="4JW-2k-jbR" id="FLe-9h-IwB"/>
+                <outlet property="ratingView" destination="aHp-hc-ugt" id="vT5-hY-tab"/>
+                <outlet property="timeLbl" destination="Anj-4S-zlx" id="ybw-9Z-icL"/>
+            </connections>
+            <point key="canvasLocation" x="121.73913043478262" y="67.96875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pizza" width="313" height="296"/>
+    </resources>
+</document>

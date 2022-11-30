@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash-->
+        <scene sceneID="AGP-To-qAV">
+            <objects>
+                <viewController storyboardIdentifier="VC_Splash" id="ee2-iJ-ISd" customClass="VC_Splash" customModule="ST_Ecommerce" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Fh-1T-10s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0kK-WA-Rkz" customClass="GradientView" customModule="ST_Ecommerce" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_Beehive_Logo_RGB_Standard_On_WhiteBG (1)" translatesAutoresizingMaskIntoConstraints="NO" id="N4e-zg-pG5">
+                                        <rect key="frame" x="107" y="348" width="200" height="200"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="ePs-9q-S33"/>
+                                            <constraint firstAttribute="height" constant="200" id="i2U-vv-6h7"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="N4e-zg-pG5" firstAttribute="centerX" secondItem="0kK-WA-Rkz" secondAttribute="centerX" id="7pQ-qB-DUx"/>
+                                    <constraint firstItem="N4e-zg-pG5" firstAttribute="centerY" secondItem="0kK-WA-Rkz" secondAttribute="centerY" id="PaJ-1x-vwB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                        <color key="value" red="1" green="0.66274509800000003" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                        <color key="value" red="1" green="0.74117647060000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="endPointX">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="startPointY">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="endPointY">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ciw-ZN-8Xc"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0kK-WA-Rkz" firstAttribute="top" secondItem="4Fh-1T-10s" secondAttribute="top" id="1uL-Lb-8NR"/>
+                            <constraint firstItem="0kK-WA-Rkz" firstAttribute="leading" secondItem="Ciw-ZN-8Xc" secondAttribute="leading" id="IGh-4C-09x"/>
+                            <constraint firstAttribute="bottom" secondItem="0kK-WA-Rkz" secondAttribute="bottom" id="vgA-KB-8CZ"/>
+                            <constraint firstItem="0kK-WA-Rkz" firstAttribute="trailing" secondItem="Ciw-ZN-8Xc" secondAttribute="trailing" id="yUu-fQ-KXh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="0kK-WA-Rkz" id="bZG-HK-sB4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xil-T7-meW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="125.89285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="01_Beehive_Logo_RGB_Standard_On_WhiteBG (1)" width="120" height="140"/>
+    </resources>
+</document>

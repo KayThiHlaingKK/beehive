@@ -1,0 +1,148 @@
+/* 
+  Localizable.strings
+  ST Ecommerce
+
+  Created by Shashi kumar Gupta on 15/07/20.
+  Copyright © 2020 Shashi. All rights reserved.
+*/
+
+
+//MARK: - Sign In screen Strings
+"Please enter your phone number." = "Please enter your phone number.";
+"Please enter valid phone number." = "Please enter valid phone number.";
+
+//MARK: - Register screen Strings
+"Please enter your name." = "Please enter your name.";
+
+//MARK: - Varify screen Strings
+"Please enter 6-Digit pin" = "Please enter 6-Digit pin";
+
+//MARK: - Home screen
+"Cart" = "Cart";
+"My Order" = "My Order";
+"Account" = "Account";
+"Settings" = "Settings";
+"Suggestions products" = "Suggestions";
+"New Arrival Products" = "New Arrival";
+"Suggestions Restaurant" = "Suggestions";
+"New Arrival Restaurant" = "New Arrival";
+"OFF" = "OFF";
+"Rewards" = "Rewards";
+"Donations" = "Donations";
+"Stay Tune for More information about our New Exciting Event! More rewards coming your way!" = "Stay Tune for More information about our New Exciting Event! More rewards coming your way!";
+
+
+//MARK: - Store Screens
+"Store" = "Store";
+"Search..." = "Search...";
+"Cart is empty, Please add an item." = "Cart is empty, Please add an item.";
+"Products" = "Products";
+"Go to Cart" = "Go to Cart";
+"Please select or add address." = "Please select or add address.";
+"Not Available" = "Not Available";
+"Closed" = "Closed";
+"Restaurants" = "Restaurants";
+
+//MARK: - Product Details Screens
+"FREE" = "FREE";
+"Sold" = "Sold";
+"Users" = "Users";
+"Customer Reviews" = "Customer Reviews";
+
+//MARK: - Foods Screens
+"Foods" = "Foods";
+
+//MARK: - More Screens
+"More" = "More";
+
+//MARK: - General
+"Attention" = "Attention";
+"Error" = "Error";
+"Server Error Try again." = "Server Error Try again.";
+"Loading..." = "Loading...";
+"Please check your internet connection or try again later." = "Please check your internet connection or try again later.";
+"Session Expired" = "Session Expired";
+"Logout" = "Logout";
+"Okay" = "Okay";
+"Success" = "Success";
+"Go Back" = "Go Back";
+"Coming Soon" = "Coming Soon";
+"Seems you are not Login into the app. You need to login for making order." = "Seems you are not Login into the app. You need to login for making order.";
+"Login" = "Login";
+"yes" = "Yes";
+"no" = "No";
+"warning" = "Warning";
+"Please enable location permissions in settings." = "Please enable location permissions in settings.";
+"Location Permission Required" = "Location Permission Required";
+"Privacy Policy" = "Privacy Policy";
+"Terms & Conditions" = "Terms & Conditions";
+
+//MARK: - Address
+"Change Address" = "Change Address";
+"Add Address" = "Add Address";
+"Please give a name for your address." = "Please give a name for your address.";
+"Edit" = "Edit";
+"Delete" = "Delete";
+"Add" = "Add";
+"Update" = "Update";
+"Are you sure want to delete address?" = "Are you sure want to delete address?";
+"Please select townShip" = "Please select townShip";
+"Please select floor" = "Please select floor";
+"Please enter your Zip code." = "Please enter your Zip code.";
+
+//MARK: - Cart
+"Expected Delivery :" = "Expected Delivery :";
+"Are you sure want to remove item from cart?" = "Are you sure want to remove item from cart?";
+"Are you sure want to destroy your cart?" = "Are you sure want to destroy your cart?";
+
+//MARK: - My Order
+"Current Orders" = "Current Orders";
+"Delivered Orders" = "Delivered Orders";
+"On the way" = "On the way";
+"Order No." = "Order No.";
+"Delivered at" = "Delivered at";
+"Delivered" = "Delivered";
+
+//MARK: - Account screen
+"Add New" = "Add New";
+"Change" = "Change";
+"choose_your_option" = "Choose your option";
+"open_camera" = "Open Camera";
+"open_photos" = "Open Photos";
+"open_files" = "Open Files";
+"app_name" = "ST-Ecommerce";
+"camera_not_available" = "Camera not available";
+"denied_gallery_permission_message" = "Denied gallery permission, Please give permission to access this feature.";
+"cancel" = "cancel";
+"denied_camera_permission_message" = "Denied Camera permission, Please give permission to access this feature.";
+"Male" = "Male";
+"Female" = "Female";
+"Change Password" = "Change Password";
+"Privacy Policy" = "Privacy Policy";
+"Terms & Conditions" = "Terms & Conditions";
+"Payment Settings" = "Payment Settings";
+"Help Desk" = "Help Desk";
+"Are you sure want to logout?" = "Are you sure want to logout?";
+
+//MARK: - Restro Details
+"Currently item is not available" = "Currently item is not available.";
+"Currently not accepting orders." = "Currently not accepting orders.";
+"Free Delivery" = "Free Delivery";
+
+//MARK - Restro Order detils
+"Estimated Delivery By" = "Estimated Delivery By";
+
+//MARK:- Strore Search
+"Search Products" = "Search Products";
+"Done" = "Done";
+
+//MARK:- Restaurants Search
+"Search Restaurants" = "Search Restaurants";
+
+//MARK: - Track order store
+"Order Placed" = "Order Placed";
+"Order Confirmed" = "Order Confirmed";
+"Order Ready to Ship" = "Order Ready to Ship";
+"Order Shipped" = "Order Shipped";
+"Order Delivered" = "Order Delivered";
+"Order Timeline" = "Order Timeline";

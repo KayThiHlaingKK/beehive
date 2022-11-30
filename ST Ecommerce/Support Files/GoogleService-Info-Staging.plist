@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>578404181805-ka3fjlae7k6tju5f4e077u4ffb0rb06d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.578404181805-ka3fjlae7k6tju5f4e077u4ffb0rb06d</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>578404181805-11tci6pan0056fff8laq8luge0mnv706.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCecZ0QHU6PFiOjw_84efwzbaK8jQVdSug</string>
+	<key>GCM_SENDER_ID</key>
+	<string>578404181805</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.beehive.ios.staging</string>
+	<key>PROJECT_ID</key>
+	<string>beehive-staging-48d7b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>beehive-staging-48d7b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:578404181805:ios:db744a01629faa4f2995a4</string>
+	<key>DATABASE_URL</key>
+	<string>https://beehive-staging-48d7b-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

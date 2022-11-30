@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Regular.ttf">
+            <string>Lexend-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell_CV_Category" id="gTV-IL-0wX" customClass="Cell_CV_Category" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="122"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="122"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C0A-3E-PZd">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="122"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="meL-iP-OAF">
+                                <rect key="frame" x="0.0" y="0.0" width="90" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Ka-mc-qd4">
+                                        <rect key="frame" x="30" y="15" width="30" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="8Ka-mc-qd4" secondAttribute="height" multiplier="1:1" id="iie-9r-7b1"/>
+                                            <constraint firstAttribute="width" constant="30" id="tyI-2y-VHd"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0SD-v7-rUE"/>
+                                    <constraint firstItem="8Ka-mc-qd4" firstAttribute="centerY" secondItem="meL-iP-OAF" secondAttribute="centerY" id="60h-SS-OPv"/>
+                                    <constraint firstItem="8Ka-mc-qd4" firstAttribute="centerX" secondItem="meL-iP-OAF" secondAttribute="centerX" id="wE5-iO-QIL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="shower curtains" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIm-HU-6w1">
+                                <rect key="frame" x="0.0" y="53" width="90" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="fcu-VF-ld8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cIm-HU-6w1" secondAttribute="trailing" id="1f7-cm-Z25"/>
+                            <constraint firstItem="cIm-HU-6w1" firstAttribute="top" secondItem="8Ka-mc-qd4" secondAttribute="bottom" constant="8" id="SXV-DT-0pU"/>
+                            <constraint firstItem="meL-iP-OAF" firstAttribute="top" secondItem="C0A-3E-PZd" secondAttribute="top" id="aKb-UE-Yc9"/>
+                            <constraint firstItem="meL-iP-OAF" firstAttribute="leading" secondItem="C0A-3E-PZd" secondAttribute="leading" id="eCn-Qd-sB8"/>
+                            <constraint firstAttribute="trailing" secondItem="meL-iP-OAF" secondAttribute="trailing" id="fni-Jh-25h"/>
+                            <constraint firstItem="8Ka-mc-qd4" firstAttribute="width" secondItem="C0A-3E-PZd" secondAttribute="width" multiplier="0.5" id="v8j-aO-hog"/>
+                            <constraint firstItem="cIm-HU-6w1" firstAttribute="leading" secondItem="C0A-3E-PZd" secondAttribute="leading" id="vT9-74-g95"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="v8j-aO-hog"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="C0A-3E-PZd" secondAttribute="bottom" id="0XJ-DF-A0U"/>
+                <constraint firstItem="C0A-3E-PZd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1d4-Jq-r2R"/>
+                <constraint firstAttribute="trailing" secondItem="C0A-3E-PZd" secondAttribute="trailing" id="Fhd-XF-pDZ"/>
+                <constraint firstItem="C0A-3E-PZd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cLv-lJ-5d8"/>
+            </constraints>
+            <size key="customSize" width="243" height="132"/>
+            <connections>
+                <outlet property="imageVIewCategory" destination="8Ka-mc-qd4" id="jcp-Re-s4R"/>
+                <outlet property="labelCategoryName" destination="cIm-HU-6w1" id="L3H-V3-5ve"/>
+            </connections>
+            <point key="canvasLocation" x="-350.72463768115944" y="75"/>
+        </collectionViewCell>
+    </objects>
+</document>

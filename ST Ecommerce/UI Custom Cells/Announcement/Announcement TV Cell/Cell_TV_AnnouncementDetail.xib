@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+        <array key="Lexend-Regular.ttf">
+            <string>Lexend-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell_TV_AnnouncementDetail" id="O6P-t2-7oc" customClass="Cell_TV_AnnouncementDetail" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="612"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O6P-t2-7oc" id="hfv-Ou-wSA">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="612"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 % Discount For Fresh Fruit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hw5-Qq-DNz">
+                        <rect key="frame" x="16" y="16" width="254.5" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="Q2p-pv-eYB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 May 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLy-Ew-acs">
+                        <rect key="frame" x="16" y="50" width="70" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="CCR-dD-GYQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="12"/>
+                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2R-Ar-0QM">
+                        <rect key="frame" x="90" y="47.5" width="4" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="M9Q-d1-61c"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By BeeHive Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNO-Kt-l1F">
+                        <rect key="frame" x="98" y="50" width="98.5" height="15"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="sM9-uZ-HzH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="12"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder2" translatesAutoresizingMaskIntoConstraints="NO" id="1Sw-Va-KcU">
+                        <rect key="frame" x="16" y="83" width="382" height="382"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="1Sw-Va-KcU" secondAttribute="height" multiplier="1:1" identifier=";" id="F9n-Jx-srs"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="bLI-ev-Qdt">
+                        <rect key="frame" x="16" y="481" width="382" height="121"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsw-1u-lPf">
+                                <rect key="frame" x="1.5" y="0.0" width="379" height="71"/>
+                                <string key="text">In publishing and graphic design, Lorem ipsum is a place holder text commonly used to demonstrate the visual. In publishing and graphic design, Lorem ipsum is a place holder text commonly used to demonstrate the visual</string>
+                                <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zox-Cc-8G4">
+                                <rect key="frame" x="141" y="87" width="100" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.73333333329999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="A9I-WA-kNA"/>
+                                    <constraint firstAttribute="height" constant="34" id="J6C-xZ-cTT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="15"/>
+                                <color key="tintColor" red="1" green="0.73333333329999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Buy Now">
+                                    <color key="titleColor" name="PrimaryTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="orderNowButtonPressed:" destination="O6P-t2-7oc" eventType="touchUpInside" id="abm-hB-5Bv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="PNO-Kt-l1F" firstAttribute="leading" secondItem="V2R-Ar-0QM" secondAttribute="trailing" constant="4" id="42e-f3-eyT"/>
+                    <constraint firstItem="V2R-Ar-0QM" firstAttribute="centerY" secondItem="hLy-Ew-acs" secondAttribute="centerY" id="A2f-jj-AgN"/>
+                    <constraint firstItem="1Sw-Va-KcU" firstAttribute="centerX" secondItem="hfv-Ou-wSA" secondAttribute="centerX" id="BCB-Vc-Gfq"/>
+                    <constraint firstItem="hw5-Qq-DNz" firstAttribute="top" secondItem="hfv-Ou-wSA" secondAttribute="top" constant="16" id="CZG-wK-6oR"/>
+                    <constraint firstItem="bLI-ev-Qdt" firstAttribute="leading" secondItem="hfv-Ou-wSA" secondAttribute="leading" constant="16" id="Eyu-5P-aH4"/>
+                    <constraint firstItem="1Sw-Va-KcU" firstAttribute="leading" secondItem="hfv-Ou-wSA" secondAttribute="leading" constant="16" id="JaI-2L-37j"/>
+                    <constraint firstItem="PNO-Kt-l1F" firstAttribute="centerY" secondItem="hLy-Ew-acs" secondAttribute="centerY" id="KeS-Qu-6nR"/>
+                    <constraint firstItem="1Sw-Va-KcU" firstAttribute="top" secondItem="PNO-Kt-l1F" secondAttribute="bottom" constant="18" id="NZT-TF-Dyx"/>
+                    <constraint firstItem="hLy-Ew-acs" firstAttribute="top" secondItem="hw5-Qq-DNz" secondAttribute="bottom" constant="11" id="Qot-mB-NVn"/>
+                    <constraint firstItem="V2R-Ar-0QM" firstAttribute="leading" secondItem="hLy-Ew-acs" secondAttribute="trailing" constant="4" id="UmZ-GC-nbe"/>
+                    <constraint firstAttribute="trailing" secondItem="1Sw-Va-KcU" secondAttribute="trailing" constant="16" id="Zww-At-zM8"/>
+                    <constraint firstAttribute="bottom" secondItem="bLI-ev-Qdt" secondAttribute="bottom" constant="10" id="adq-xJ-eAr"/>
+                    <constraint firstItem="hLy-Ew-acs" firstAttribute="leading" secondItem="hfv-Ou-wSA" secondAttribute="leading" constant="16" id="chD-SY-70G"/>
+                    <constraint firstItem="hw5-Qq-DNz" firstAttribute="leading" secondItem="hfv-Ou-wSA" secondAttribute="leading" constant="16" id="erq-Z3-Dr0"/>
+                    <constraint firstItem="bLI-ev-Qdt" firstAttribute="top" secondItem="1Sw-Va-KcU" secondAttribute="bottom" constant="16" id="fA6-5n-fu7"/>
+                    <constraint firstAttribute="trailing" secondItem="bLI-ev-Qdt" secondAttribute="trailing" constant="16" id="rsN-4h-nDh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="announcementImage" destination="1Sw-Va-KcU" id="vlg-wx-nC7"/>
+                <outlet property="buyNowBtn" destination="zox-Cc-8G4" id="WQ7-wo-1sE"/>
+                <outlet property="dateLabel" destination="hLy-Ew-acs" id="1lk-KD-ZtR"/>
+                <outlet property="descriptionLabel" destination="wsw-1u-lPf" id="3U5-EL-Hdr"/>
+                <outlet property="titleLabel" destination="hw5-Qq-DNz" id="nTK-e9-baW"/>
+            </connections>
+            <point key="canvasLocation" x="-80" y="-436"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder2" width="150" height="136"/>
+        <namedColor name="PrimaryTextColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

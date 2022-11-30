@@ -1,0 +1,3 @@
+To login into the app please use credentials provided with OTP as 987654 and please select country as India while login because for Myanmar their is dynamic OTP and this app is intended for the use of myanmar people. but for the testing purpose an indian credentials has been provided from our side.
+For dynamic otp testing:- 
+please use any myanmar telephonic number with any credentials and the verify otp case would work

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="LATO-BOLD.TTF">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="LATO-LIGHT.TTF">
+            <string>Lato-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="308"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="aZ5-sI-ZPA">
+                    <rect key="frame" x="8" y="15" width="329" height="71"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cancel Order" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvb-ov-QXC">
+                            <rect key="frame" x="105" y="0.0" width="119.5" height="24"/>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you sure you want to cancel this order?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnI-3a-G0a">
+                            <rect key="frame" x="40.5" y="30" width="248" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="mug-q3-cqy">
+                    <rect key="frame" x="0.0" y="278" width="345" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvj-Fe-EbL">
+                            <rect key="frame" x="0.0" y="0.0" width="149.5" height="30"/>
+                            <state key="normal" title="Discard"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmM-eS-Gwe">
+                            <rect key="frame" x="195.5" y="0.0" width="149.5" height="30"/>
+                            <state key="normal" title="Cancel"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="UAI-4j-rP2"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BxC-6r-7BK">
+                    <rect key="frame" x="16" y="116" width="313" height="146"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reason For cancellation:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMk-bQ-GUH">
+                            <rect key="frame" x="0.0" y="0.0" width="155" height="18"/>
+                            <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CNm-uj-SC8">
+                            <rect key="frame" x="0.0" y="26" width="313" height="120"/>
+                            <color key="backgroundColor" red="0.090196078430000007" green="0.49803921569999998" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mug-q3-cqy" secondAttribute="bottom" id="8Ei-eI-BHg"/>
+                <constraint firstItem="mug-q3-cqy" firstAttribute="top" secondItem="BxC-6r-7BK" secondAttribute="bottom" constant="16" id="G1S-iO-Mpj"/>
+                <constraint firstAttribute="trailing" secondItem="mug-q3-cqy" secondAttribute="trailing" id="PQr-Jm-WAc"/>
+                <constraint firstItem="BxC-6r-7BK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="YNX-Lz-sO1"/>
+                <constraint firstItem="aZ5-sI-ZPA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Zvg-bJ-rNk"/>
+                <constraint firstItem="BxC-6r-7BK" firstAttribute="top" secondItem="aZ5-sI-ZPA" secondAttribute="bottom" constant="30" id="ayP-ZW-Hfm"/>
+                <constraint firstItem="mug-q3-cqy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bpA-63-8OZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aZ5-sI-ZPA" secondAttribute="trailing" constant="8" id="er7-fl-Qw3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="BxC-6r-7BK" secondAttribute="trailing" constant="16" id="j4F-yk-LBd"/>
+                <constraint firstItem="aZ5-sI-ZPA" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="n5u-6x-cxX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-232.80000000000001" y="57.571214392803604"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

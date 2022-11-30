@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+        <array key="Lexend-Regular.ttf">
+            <string>Lexend-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell_CV_Announcement" id="7Ni-SG-QAe" customClass="Cell_CV_Announcement" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="437"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2cf-ZW-lGs" customClass="RoundedView" customModule="ST_Ecommerce" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="250" height="437"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sale2" translatesAutoresizingMaskIntoConstraints="NO" id="gZK-QF-9pe">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="250" id="C13-CY-5Ga"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ဂျပန်ရဲ့ Ramen အရသာစစ်စစ်ကို စားချင်ကြလား??" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W08-C3-dOa">
+                        <rect key="frame" x="8" y="258" width="234" height="54"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="54" id="kJt-4l-GgG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="16"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 May 2021" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWT-kj-pqc">
+                        <rect key="frame" x="8" y="399" width="83.5" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="A7m-U2-xT8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ဂျပန်နိုင်ငံရဲ့ ရိုးရာအစားအစာတွေထဲက နာမည်အကြီးဆုံး ဖြစ်တဲ့ Ichiran Ra- men ဆိုတဲ့ ခေါက်ဆွဲလေးနဲ့ ……." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKh-PP-668">
+                        <rect key="frame" x="8" y="316" width="234" height="75"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="rz9-nf-AW7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="W08-C3-dOa" firstAttribute="leading" secondItem="2cf-ZW-lGs" secondAttribute="leading" constant="8" id="1P5-Ua-cTV"/>
+                    <constraint firstItem="gZK-QF-9pe" firstAttribute="top" secondItem="2cf-ZW-lGs" secondAttribute="top" id="AE0-y9-6xb"/>
+                    <constraint firstAttribute="trailing" secondItem="RKh-PP-668" secondAttribute="trailing" constant="8" id="TB6-od-U3M"/>
+                    <constraint firstItem="RKh-PP-668" firstAttribute="leading" secondItem="2cf-ZW-lGs" secondAttribute="leading" constant="8" id="U20-Y2-Qy8"/>
+                    <constraint firstAttribute="trailing" secondItem="W08-C3-dOa" secondAttribute="trailing" constant="8" id="W0x-qd-Ns9"/>
+                    <constraint firstItem="zWT-kj-pqc" firstAttribute="leading" secondItem="2cf-ZW-lGs" secondAttribute="leading" constant="8" id="XuS-zr-kam"/>
+                    <constraint firstAttribute="trailing" secondItem="gZK-QF-9pe" secondAttribute="trailing" id="bIY-6H-jPF"/>
+                    <constraint firstItem="zWT-kj-pqc" firstAttribute="top" secondItem="RKh-PP-668" secondAttribute="bottom" constant="8" symbolic="YES" id="hfy-Od-cgH"/>
+                    <constraint firstAttribute="bottom" secondItem="zWT-kj-pqc" secondAttribute="bottom" constant="8" id="iBf-U8-WNR"/>
+                    <constraint firstItem="gZK-QF-9pe" firstAttribute="leading" secondItem="2cf-ZW-lGs" secondAttribute="leading" id="nQt-BX-h6S"/>
+                    <constraint firstItem="W08-C3-dOa" firstAttribute="top" secondItem="gZK-QF-9pe" secondAttribute="bottom" constant="8" id="vDS-ps-E9e"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="5"/>
+                    </userDefinedRuntimeAttribute>
+                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                        <real key="value" value="0.5"/>
+                    </userDefinedRuntimeAttribute>
+                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                        <color key="value" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </collectionViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <size key="customSize" width="250" height="437"/>
+            <connections>
+                <outlet property="dateLabel" destination="zWT-kj-pqc" id="OgL-ma-QDe"/>
+                <outlet property="descriptionLabel" destination="RKh-PP-668" id="RD6-Az-KVn"/>
+                <outlet property="imageView" destination="gZK-QF-9pe" id="YOl-0X-Jw9"/>
+                <outlet property="titleLabel" destination="W08-C3-dOa" id="9zO-Hu-Ku5"/>
+            </connections>
+            <point key="canvasLocation" x="-136" y="-290"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="sale2" width="288" height="150.5"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module PromisedFuture {
+  umbrella header "PromisedFuture-umbrella.h"
+
+  export *
+  module * { export * }
+}

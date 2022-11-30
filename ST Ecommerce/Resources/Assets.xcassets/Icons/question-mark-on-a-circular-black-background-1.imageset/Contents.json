@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "question-mark-on-a-circular-black-background-3.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "question-mark-on-a-circular-black-background-4.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "question-mark-on-a-circular-black-background-5.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

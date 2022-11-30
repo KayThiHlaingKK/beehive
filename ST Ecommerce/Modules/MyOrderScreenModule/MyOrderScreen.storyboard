@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--My Order Screen View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MyOrderScreenViewController" id="BYZ-38-t0r" customClass="MyOrderScreenViewController" customModule="ST_Ecommerce" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="exj-8V-Oev" customClass="GradientView" customModule="ST_Ecommerce" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foods Orders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyU-m0-EuW">
+                                        <rect key="frame" x="129" y="24" width="117" height="22.5"/>
+                                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="18"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSS-Pq-tqg">
+                                        <rect key="frame" x="10" y="19" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="nfq-E5-JHN"/>
+                                            <constraint firstAttribute="width" constant="32" id="smz-lQ-uJi"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="back-black"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="edR-4n-H7n"/>
+                                    <constraint firstItem="zyU-m0-EuW" firstAttribute="centerY" secondItem="exj-8V-Oev" secondAttribute="centerY" id="meS-Ix-Jgs"/>
+                                    <constraint firstItem="rSS-Pq-tqg" firstAttribute="leading" secondItem="exj-8V-Oev" secondAttribute="leading" constant="10" id="ndh-Ph-XNS"/>
+                                    <constraint firstItem="zyU-m0-EuW" firstAttribute="centerX" secondItem="exj-8V-Oev" secondAttribute="centerX" id="o4X-cD-Vl1"/>
+                                    <constraint firstItem="rSS-Pq-tqg" firstAttribute="centerY" secondItem="zyU-m0-EuW" secondAttribute="centerY" id="r3b-NW-zOG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.070000000000000007" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowX">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowY">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="R3f-Qi-Iz1">
+                                <rect key="frame" x="77.5" y="80" width="220" height="38"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rfE-4f-blI">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="38"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EIa-mC-4fa">
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="35"/>
+                                                <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="18"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Shops">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nuQ-Md-PD7">
+                                                <rect key="frame" x="0.0" y="35" width="70" height="3"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="70" id="F6y-tF-Rp4"/>
+                                                    <constraint firstAttribute="height" constant="3" id="KVh-29-vGo"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="p9S-zh-uUI">
+                                        <rect key="frame" x="150" y="0.0" width="70" height="38"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVK-vV-KIk">
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="38"/>
+                                                <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="18"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Foods">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ClC-4E-RwB">
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="3"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="70" id="GLg-DT-URT"/>
+                                                    <constraint firstAttribute="height" constant="3" id="pHw-Ps-Hgy"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uuk-Pa-HNL">
+                                <rect key="frame" x="0.0" y="130" width="375" height="537"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8IO-7M-XZe">
+                                <rect key="frame" x="15" y="138" width="345" height="160"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9zb-qE-aXc">
+                                        <rect key="frame" x="49" y="15.5" width="247" height="129"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are no items you purchased" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uY3-K7-tDg">
+                                                <rect key="frame" x="0.0" y="0.0" width="247" height="19"/>
+                                                <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nodata_cart" translatesAutoresizingMaskIntoConstraints="NO" id="E4t-RO-nUu">
+                                                <rect key="frame" x="83.5" y="19" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="eKn-Kg-8K3"/>
+                                                    <constraint firstAttribute="height" constant="80" id="eUd-CQ-HH7"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eUv-pr-5DW">
+                                                <rect key="frame" x="72.5" y="99" width="102" height="30"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Continue Shop">
+                                                            <attributes>
+                                                                <color key="NSColor" systemColor="systemYellowColor"/>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="9zb-qE-aXc" firstAttribute="centerY" secondItem="8IO-7M-XZe" secondAttribute="centerY" id="Hsp-IW-ml5"/>
+                                    <constraint firstItem="9zb-qE-aXc" firstAttribute="centerX" secondItem="8IO-7M-XZe" secondAttribute="centerX" id="Jl8-Nx-EY8"/>
+                                    <constraint firstAttribute="height" constant="160" id="iPL-rT-Fic"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8IO-7M-XZe" firstAttribute="top" secondItem="R3f-Qi-Iz1" secondAttribute="bottom" constant="20" id="4fl-ZW-If3"/>
+                            <constraint firstItem="uuk-Pa-HNL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5aX-oa-aNb"/>
+                            <constraint firstItem="R3f-Qi-Iz1" firstAttribute="top" secondItem="exj-8V-Oev" secondAttribute="bottom" constant="10" id="74l-6j-Ka0"/>
+                            <constraint firstItem="8IO-7M-XZe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="DuP-Lo-aA4"/>
+                            <constraint firstAttribute="trailing" secondItem="8IO-7M-XZe" secondAttribute="trailing" constant="15" id="IYy-qk-MyI"/>
+                            <constraint firstAttribute="trailing" secondItem="exj-8V-Oev" secondAttribute="trailing" id="Jhr-2I-uOb"/>
+                            <constraint firstItem="R3f-Qi-Iz1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WaD-21-pez"/>
+                            <constraint firstItem="exj-8V-Oev" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eF3-wy-JBj"/>
+                            <constraint firstItem="uuk-Pa-HNL" firstAttribute="top" secondItem="exj-8V-Oev" secondAttribute="bottom" constant="60" id="jIt-Ek-2Uw"/>
+                            <constraint firstItem="exj-8V-Oev" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mKT-y3-xk4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uuk-Pa-HNL" secondAttribute="bottom" id="pb6-zd-Pq1"/>
+                            <constraint firstAttribute="trailing" secondItem="uuk-Pa-HNL" secondAttribute="trailing" id="y07-co-WT8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jji-uH-Yqx"/>
+                    <connections>
+                        <outlet property="backBtn" destination="rSS-Pq-tqg" id="lid-fK-VcB"/>
+                        <outlet property="btnFood" destination="aVK-vV-KIk" id="FW5-gq-nor"/>
+                        <outlet property="btnShop" destination="EIa-mC-4fa" id="lVb-f5-abL"/>
+                        <outlet property="foodBgView" destination="ClC-4E-RwB" id="uFp-CK-TAR"/>
+                        <outlet property="navTitleLabel" destination="zyU-m0-EuW" id="V8n-4W-Xk2"/>
+                        <outlet property="noDataView" destination="8IO-7M-XZe" id="FAj-Yw-2IF"/>
+                        <outlet property="orderListTableView" destination="uuk-Pa-HNL" id="CvQ-YT-IRW"/>
+                        <outlet property="orderTypeStackView" destination="R3f-Qi-Iz1" id="InN-cL-Yru"/>
+                        <outlet property="shopBgView" destination="nuQ-Md-PD7" id="9KO-kB-zMJ"/>
+                        <outlet property="tableViewTopContraint" destination="jIt-Ek-2Uw" id="8Fe-eG-sDB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799.20000000000005" y="99.400299850074973"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back-black" width="12" height="12"/>
+        <image name="nodata_cart" width="94" height="80"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="Cell_CV_CategoryMenuName" reuseIdentifier="Cell_CV_CategoryMenuName" id="c3u-xf-7gY" customClass="Cell_CV_CategoryMenuName" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="97" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="KUk-Ds-I4M">
+                <rect key="frame" x="0.0" y="0.0" width="97" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBV-wh-ukh">
+                        <rect key="frame" x="8" y="15" width="81" height="20"/>
+                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pXg-ZN-xyK">
+                        <rect key="frame" x="8" y="46" width="81" height="2"/>
+                        <color key="backgroundColor" red="1" green="0.73333333329999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="T1b-cP-gHx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pXg-ZN-xyK" firstAttribute="trailing" secondItem="kBV-wh-ukh" secondAttribute="trailing" id="7Ht-be-agb"/>
+                    <constraint firstAttribute="trailing" secondItem="kBV-wh-ukh" secondAttribute="trailing" constant="8" id="IMi-H6-WSB"/>
+                    <constraint firstItem="kBV-wh-ukh" firstAttribute="centerY" secondItem="KUk-Ds-I4M" secondAttribute="centerY" id="Iz0-T4-bAO"/>
+                    <constraint firstItem="kBV-wh-ukh" firstAttribute="leading" secondItem="KUk-Ds-I4M" secondAttribute="leading" constant="8" id="KRB-w5-POv"/>
+                    <constraint firstAttribute="bottom" secondItem="pXg-ZN-xyK" secondAttribute="bottom" constant="2" id="iIO-Bq-Nvj"/>
+                    <constraint firstItem="pXg-ZN-xyK" firstAttribute="leading" secondItem="kBV-wh-ukh" secondAttribute="leading" id="oIT-vb-ORB"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="97" height="50"/>
+            <connections>
+                <outlet property="categoryNameLabel" destination="kBV-wh-ukh" id="27F-PO-Wqg"/>
+                <outlet property="lineView" destination="pXg-ZN-xyK" id="lIO-1O-CGL"/>
+            </connections>
+            <point key="canvasLocation" x="-220" y="-20"/>
+        </collectionViewCell>
+    </objects>
+</document>

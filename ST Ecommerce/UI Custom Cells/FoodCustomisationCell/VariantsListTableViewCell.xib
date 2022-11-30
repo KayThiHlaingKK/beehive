@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="159" id="T9Z-kP-aDG" customClass="VariantsListTableViewCell" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T9Z-kP-aDG" id="UNG-h3-a83">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radio_button_un_selected" translatesAutoresizingMaskIntoConstraints="NO" id="ROk-lw-eEp">
+                        <rect key="frame" x="16" y="10" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="DBo-2s-Zt2"/>
+                            <constraint firstAttribute="height" constant="24" id="YiV-aY-egm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELI-jW-V9I">
+                        <rect key="frame" x="50" y="12.5" width="40.5" height="19"/>
+                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAP-Um-c0f">
+                        <rect key="frame" x="263.5" y="12.5" width="40.5" height="19"/>
+                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="OLP-es-MEK" customClass="SelfSizingTableView" customModule="ST_Ecommerce" customModuleProvider="target">
+                        <rect key="frame" x="50" y="40" width="254" height="110"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="OLP-es-MEK" firstAttribute="top" secondItem="UNG-h3-a83" secondAttribute="top" constant="40" id="2cb-Cb-UYb"/>
+                    <constraint firstItem="pAP-Um-c0f" firstAttribute="centerY" secondItem="ELI-jW-V9I" secondAttribute="centerY" id="DNz-30-WFf"/>
+                    <constraint firstItem="ROk-lw-eEp" firstAttribute="leading" secondItem="UNG-h3-a83" secondAttribute="leading" constant="16" id="ILm-3H-QeX"/>
+                    <constraint firstItem="ELI-jW-V9I" firstAttribute="leading" secondItem="ROk-lw-eEp" secondAttribute="trailing" constant="10" id="NJ1-kW-OsQ"/>
+                    <constraint firstAttribute="bottom" secondItem="OLP-es-MEK" secondAttribute="bottom" constant="10" id="Ygt-WQ-iLN"/>
+                    <constraint firstItem="ROk-lw-eEp" firstAttribute="top" secondItem="UNG-h3-a83" secondAttribute="top" constant="10" id="cJz-qK-ULJ"/>
+                    <constraint firstItem="ELI-jW-V9I" firstAttribute="centerY" secondItem="ROk-lw-eEp" secondAttribute="centerY" id="jSE-72-gm1"/>
+                    <constraint firstItem="OLP-es-MEK" firstAttribute="trailing" secondItem="pAP-Um-c0f" secondAttribute="trailing" id="kKN-fx-hpR"/>
+                    <constraint firstItem="OLP-es-MEK" firstAttribute="leading" secondItem="ROk-lw-eEp" secondAttribute="trailing" constant="10" id="pJ6-Zf-PTf"/>
+                    <constraint firstAttribute="trailing" secondItem="pAP-Um-c0f" secondAttribute="trailing" constant="16" id="pjV-Dl-iAu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="LhI-Rg-vhm"/>
+            <connections>
+                <outlet property="extraChargeTableView" destination="OLP-es-MEK" id="veI-YV-6g6"/>
+                <outlet property="imgSelect" destination="ROk-lw-eEp" id="5T9-Iw-Vwy"/>
+                <outlet property="lblAmount" destination="pAP-Um-c0f" id="aIB-Fh-TmS"/>
+                <outlet property="lblVariationName" destination="ELI-jW-V9I" id="yNU-84-H6Q"/>
+            </connections>
+            <point key="canvasLocation" x="101" y="117"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="radio_button_un_selected" width="44" height="44"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

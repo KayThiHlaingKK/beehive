@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+        <array key="Lexend-Regular.ttf">
+            <string>Lexend-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell_TV_AddressRow" rowHeight="114" id="KGk-i7-Jjw" customClass="Cell_TV_AddressRow" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wor" translatesAutoresizingMaskIntoConstraints="NO" id="1WF-nx-rvs">
+                        <rect key="frame" x="16" y="16" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="0sE-bE-0Jf"/>
+                            <constraint firstAttribute="width" constant="24" id="mci-lX-C7S"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLw-9o-sPy">
+                        <rect key="frame" x="48" y="16" width="190" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="d4k-6L-2QJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOy-r1-2ch">
+                        <rect key="frame" x="284" y="18" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="gdD-o0-vmF"/>
+                            <constraint firstAttribute="width" constant="20" id="l94-HQ-IFP"/>
+                        </constraints>
+                        <color key="tintColor" red="1" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="trash" catalog="system"/>
+                        <connections>
+                            <action selector="deleteButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lIm-Lr-kZb"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0k-sL-ux9">
+                        <rect key="frame" x="254" y="18" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="fN1-EX-qtj"/>
+                            <constraint firstAttribute="height" constant="20" id="qog-Nc-PMr"/>
+                        </constraints>
+                        <color key="tintColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="pencile_hollow"/>
+                        <connections>
+                            <action selector="editButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Qqb-gX-Gsn"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Room-55, 3rd Floor, Junction Square" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uZ-ic-AIQ">
+                        <rect key="frame" x="48" y="48" width="190" height="49"/>
+                        <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hIj-38-UhQ">
+                        <rect key="frame" x="32" y="113" width="256" height="1"/>
+                        <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="eey-1F-Soa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="XLw-9o-sPy" firstAttribute="centerY" secondItem="1WF-nx-rvs" secondAttribute="centerY" id="1pS-u9-Nqw"/>
+                    <constraint firstItem="SOy-r1-2ch" firstAttribute="leading" secondItem="q0k-sL-ux9" secondAttribute="trailing" constant="10" id="4ME-RV-hG9"/>
+                    <constraint firstItem="1WF-nx-rvs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="5BD-CC-2jG"/>
+                    <constraint firstItem="SOy-r1-2ch" firstAttribute="centerY" secondItem="XLw-9o-sPy" secondAttribute="centerY" id="6wM-s6-UES"/>
+                    <constraint firstItem="9uZ-ic-AIQ" firstAttribute="leading" secondItem="XLw-9o-sPy" secondAttribute="leading" id="8Pb-P2-2Nf"/>
+                    <constraint firstItem="9uZ-ic-AIQ" firstAttribute="trailing" secondItem="XLw-9o-sPy" secondAttribute="trailing" id="AHy-Sz-QGN"/>
+                    <constraint firstItem="hIj-38-UhQ" firstAttribute="top" secondItem="9uZ-ic-AIQ" secondAttribute="bottom" constant="16" id="HXZ-tL-KmB"/>
+                    <constraint firstItem="q0k-sL-ux9" firstAttribute="centerY" secondItem="XLw-9o-sPy" secondAttribute="centerY" id="NOm-Kq-tVg"/>
+                    <constraint firstItem="1WF-nx-rvs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="PNl-Zd-kJO"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hIj-38-UhQ" secondAttribute="trailing" constant="16" id="UFG-ph-v5U"/>
+                    <constraint firstItem="q0k-sL-ux9" firstAttribute="leading" secondItem="XLw-9o-sPy" secondAttribute="trailing" constant="16" id="Vnt-pA-S1L"/>
+                    <constraint firstItem="hIj-38-UhQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="ZBy-jU-5uP"/>
+                    <constraint firstItem="XLw-9o-sPy" firstAttribute="leading" secondItem="1WF-nx-rvs" secondAttribute="trailing" constant="8" symbolic="YES" id="fNw-U3-AHj"/>
+                    <constraint firstItem="9uZ-ic-AIQ" firstAttribute="top" secondItem="XLw-9o-sPy" secondAttribute="bottom" constant="8" id="hhj-RD-uID"/>
+                    <constraint firstAttribute="trailing" secondItem="SOy-r1-2ch" secondAttribute="trailing" constant="16" id="yf2-I2-6MW"/>
+                    <constraint firstAttribute="bottom" secondItem="hIj-38-UhQ" secondAttribute="bottom" id="yoK-OO-3ij"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressLabel" destination="9uZ-ic-AIQ" id="mFo-9r-Etj"/>
+                <outlet property="addressTypeImage" destination="1WF-nx-rvs" id="DgE-wO-oac"/>
+                <outlet property="addressTypeLabel" destination="XLw-9o-sPy" id="lGo-SR-P2b"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="100.44642857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Wor" width="128" height="128"/>
+        <image name="pencile_hollow" width="24.5" height="24.5"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+    </resources>
+</document>

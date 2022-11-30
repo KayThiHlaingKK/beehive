@@ -1,0 +1,6 @@
+framework module Pods_ST_Ecommerce {
+  umbrella header "Pods-ST Ecommerce-umbrella.h"
+
+  export *
+  module * { export * }
+}

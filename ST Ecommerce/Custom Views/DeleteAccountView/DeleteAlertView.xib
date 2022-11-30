@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+        <array key="Lexend-Regular.ttf">
+            <string>Lexend-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DeleteAlertView" customModule="ST_Ecommerce" customModuleProvider="target">
+            <connections>
+                <outlet property="alertView" destination="V6u-YV-8eo" id="xik-uS-hUr"/>
+                <outlet property="cancelBtn" destination="tS4-C9-QOC" id="elN-qG-fVX"/>
+                <outlet property="confirmBtn" destination="nli-GQ-Ots" id="6x7-qH-zET"/>
+                <outlet property="parentView" destination="iN0-l3-epB" id="OT7-jh-nhT"/>
+                <outlet property="sliderView" destination="ici-2g-YOj" id="6zK-9g-3Qd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="679"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aYw-mf-sV8">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="679"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V6u-YV-8eo">
+                            <rect key="frame" x="57" y="189.5" width="300" height="300"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eMc-Ig-8fP">
+                                    <rect key="frame" x="30" y="225" width="240" height="45"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tS4-C9-QOC">
+                                            <rect key="frame" x="0.0" y="0.0" width="115" height="45"/>
+                                            <color key="backgroundColor" name="MainColor"/>
+                                            <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Cancel"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="7"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="onClickCancel:" destination="-1" eventType="touchUpInside" id="jvc-Zd-Qsy"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nli-GQ-Ots">
+                                            <rect key="frame" x="125" y="0.0" width="115" height="45"/>
+                                            <color key="backgroundColor" name="MainColor"/>
+                                            <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Confirm"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="7"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="onClickConfirm:" destination="-1" eventType="touchUpInside" id="7zm-z7-Uto"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="CFs-nW-HE2"/>
+                                    </constraints>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you sure want to delete your account?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pe-fj-SUd">
+                                    <rect key="frame" x="15" y="20" width="270" height="45"/>
+                                    <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ici-2g-YOj" customClass="MTSlideToOpenView" customModule="ST_Ecommerce" customModuleProvider="target">
+                                    <rect key="frame" x="15" y="125" width="270" height="50"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="GJf-FY-h5s"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="1pe-fj-SUd" firstAttribute="top" secondItem="V6u-YV-8eo" secondAttribute="top" constant="20" id="1FL-pE-kxW"/>
+                                <constraint firstAttribute="trailing" secondItem="1pe-fj-SUd" secondAttribute="trailing" constant="15" id="Bve-GD-9PC"/>
+                                <constraint firstItem="eMc-Ig-8fP" firstAttribute="leading" secondItem="V6u-YV-8eo" secondAttribute="leading" constant="30" id="PdY-kk-vlF"/>
+                                <constraint firstAttribute="width" constant="300" id="Tlq-2Z-knW"/>
+                                <constraint firstAttribute="bottom" secondItem="eMc-Ig-8fP" secondAttribute="bottom" constant="30" id="cVZ-Fm-aif"/>
+                                <constraint firstItem="1pe-fj-SUd" firstAttribute="leading" secondItem="V6u-YV-8eo" secondAttribute="leading" constant="15" id="dg4-br-YXQ"/>
+                                <constraint firstAttribute="height" constant="300" id="dzw-Fv-Q0s"/>
+                                <constraint firstAttribute="trailing" secondItem="eMc-Ig-8fP" secondAttribute="trailing" constant="30" id="e21-sf-R9X"/>
+                                <constraint firstItem="ici-2g-YOj" firstAttribute="centerX" secondItem="V6u-YV-8eo" secondAttribute="centerX" id="e5B-k4-aJR"/>
+                                <constraint firstItem="ici-2g-YOj" firstAttribute="width" secondItem="1pe-fj-SUd" secondAttribute="width" id="ktD-Hw-bXl"/>
+                                <constraint firstItem="ici-2g-YOj" firstAttribute="centerY" secondItem="V6u-YV-8eo" secondAttribute="centerY" id="xOT-7K-Lkx"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="V6u-YV-8eo" firstAttribute="centerX" secondItem="aYw-mf-sV8" secondAttribute="centerX" id="TyE-ON-GJe"/>
+                        <constraint firstItem="V6u-YV-8eo" firstAttribute="centerY" secondItem="aYw-mf-sV8" secondAttribute="centerY" id="cwf-7T-PjE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="aYw-mf-sV8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WfU-vz-ghk"/>
+                <constraint firstItem="aYw-mf-sV8" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="fPz-z9-IYH"/>
+                <constraint firstItem="aYw-mf-sV8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="of4-mD-NtX"/>
+                <constraint firstItem="aYw-mf-sV8" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="wMV-Oi-HAX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="27.120535714285712"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="MainColor">
+            <color red="1" green="0.73299998044967651" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

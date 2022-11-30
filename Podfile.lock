@@ -1,0 +1,426 @@
+PODS:
+  - Alamofire (5.6.2)
+  - AlgoliaSearchClient (8.15.0):
+    - Logging
+  - Comets (0.3.1)
+  - Cosmos (22.1.0)
+  - CountryPickerView (3.3.0)
+  - CropViewController (2.6.1)
+  - Down (0.11.0)
+  - DropDown (2.3.13)
+  - FBSDKCoreKit (8.0.0):
+    - FBSDKCoreKit/Basics (= 8.0.0)
+    - FBSDKCoreKit/Core (= 8.0.0)
+  - FBSDKCoreKit/Basics (8.0.0)
+  - FBSDKCoreKit/Core (8.0.0):
+    - FBSDKCoreKit/Basics
+  - Firebase/Analytics (9.4.0):
+    - Firebase/Core
+  - Firebase/Core (9.4.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 9.4.0)
+  - Firebase/CoreOnly (9.4.0):
+    - FirebaseCore (= 9.4.0)
+  - Firebase/Crashlytics (9.4.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 9.4.0)
+  - Firebase/Messaging (9.4.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 9.4.0)
+  - FirebaseAnalytics (9.4.0):
+    - FirebaseAnalytics/AdIdSupport (= 9.4.0)
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (9.4.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleAppMeasurement (= 9.4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (9.4.0):
+    - FirebaseCoreDiagnostics (~> 9.0)
+    - FirebaseCoreInternal (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (9.4.0):
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCoreInternal (9.4.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+  - FirebaseCrashlytics (9.4.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (~> 2.1)
+  - FirebaseInstallations (9.4.0):
+    - FirebaseCore (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (9.4.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - Gemini (1.4.0)
+  - GoogleAppMeasurement (9.4.0):
+    - GoogleAppMeasurement/AdIdSupport (= 9.4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (9.4.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 9.4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (9.4.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - InjectableLoggers (2.1.1)
+  - InstantSearch (7.19.1):
+    - InstantSearch/UI (= 7.19.1)
+  - InstantSearch/Core (7.19.1):
+    - AlgoliaSearchClient (~> 8.13)
+    - InstantSearch/Insights
+    - InstantSearchTelemetry (~> 0.1.2)
+  - InstantSearch/Insights (7.19.1):
+    - AlgoliaSearchClient (~> 8.13)
+  - InstantSearch/UI (7.19.1):
+    - InstantSearch/Core
+  - InstantSearchTelemetry (0.1.2):
+    - SwiftProtobuf (~> 1.19)
+  - IQKeyboardManagerSwift (6.5.10)
+  - JGProgressHUD (2.2)
+  - LanguageManager-iOS (1.2.5)
+  - Logging (1.4.0)
+  - lottie-ios (3.4.2)
+  - Mapbox-iOS-SDK (4.11.2)
+  - MapboxDirections (1.2.0):
+    - Polyline (~> 5.0)
+    - Turf (~> 1.0)
+  - MapboxGeocoder.swift (0.14.0)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/Buttons (124.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/Shadow
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Cards (124.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+  - MaterialComponents/Dialogs (124.2.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Elevation (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Icons/Base (124.2.0)
+  - MaterialComponents/private/Icons/ic_check_circle (124.2.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/KeyboardWatcher (124.2.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (124.2.0)
+  - MaterialComponents/Ripple (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Shadow (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/ShadowElevations (124.2.0)
+  - MaterialComponents/ShadowLayer (124.2.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (124.2.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (124.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (124.2.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MBProgressHUD (1.2.0)
+  - MDFInternationalization (3.0.0)
+  - MDFTextAccessibility (2.0.1)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - ObjectMapper (4.2.0)
+  - PhoneNumberKit (3.3.4):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.4)
+    - PhoneNumberKit/UIKit (= 3.3.4)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.4)
+  - PhoneNumberKit/UIKit (3.3.4):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - Polyline (5.0.2)
+  - PromisedFuture (1.0.2)
+  - PromisesObjC (2.1.1)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - Sentry (7.23.0):
+    - Sentry/Core (= 7.23.0)
+  - Sentry/Core (7.23.0)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SnapKit (5.0.1)
+  - SVPinView (1.0.11)
+  - SwiftLocation (4.2.0)
+  - SwiftProtobuf (1.19.1)
+  - SwiftyPlistManager (1.0.2)
+  - TKSubmitTransition (3.1.1)
+  - Toast-Swift (5.0.1)
+  - Turf (1.2.0)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+  - ViewAnimator (3.1.0)
+  - Zoomy (4.0.0):
+    - InjectableLoggers (~> 2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlgoliaSearchClient (~> 8.11)
+  - Comets
+  - Cosmos (~> 22.1)
+  - CountryPickerView
+  - CropViewController
+  - Down
+  - DropDown
+  - FBSDKCoreKit (~> 8.0.0)
+  - Firebase/Analytics
+  - Firebase/Crashlytics
+  - Firebase/Messaging
+  - Gemini
+  - InstantSearch (~> 7.1)
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - LanguageManager-iOS
+  - lottie-ios
+  - Mapbox-iOS-SDK (~> 4.11.2)
+  - MapboxDirections (~> 1.0)
+  - MapboxGeocoder.swift (~> 0.12)
+  - MaterialComponents/Buttons
+  - MaterialComponents/Cards
+  - MaterialComponents/Dialogs
+  - MBProgressHUD
+  - ObjectMapper (~> 4.0)
+  - PhoneNumberKit (~> 3.1)
+  - PromisedFuture
+  - SDWebImage
+  - Sentry
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SnapKit (~> 5.0.0)
+  - SVPinView (~> 1.0)
+  - SwiftLocation (~> 4.0)
+  - SwiftyPlistManager
+  - TKSubmitTransition (from `https://github.com/entotsu/TKSubmitTransition.git`)
+  - Toast-Swift (~> 5.0.1)
+  - UIActivityIndicator-for-SDWebImage
+  - ViewAnimator
+  - Zoomy
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlgoliaSearchClient
+    - Comets
+    - Cosmos
+    - CountryPickerView
+    - CropViewController
+    - Down
+    - DropDown
+    - FBSDKCoreKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreInternal
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - Gemini
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - InjectableLoggers
+    - InstantSearch
+    - InstantSearchTelemetry
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - LanguageManager-iOS
+    - Logging
+    - lottie-ios
+    - Mapbox-iOS-SDK
+    - MapboxDirections
+    - MapboxGeocoder.swift
+    - MaterialComponents
+    - MBProgressHUD
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - nanopb
+    - ObjectMapper
+    - PhoneNumberKit
+    - Polyline
+    - PromisedFuture
+    - PromisesObjC
+    - SDWebImage
+    - Sentry
+    - SkyFloatingLabelTextField
+    - SnapKit
+    - SVPinView
+    - SwiftLocation
+    - SwiftProtobuf
+    - SwiftyPlistManager
+    - Toast-Swift
+    - Turf
+    - UIActivityIndicator-for-SDWebImage
+    - ViewAnimator
+    - Zoomy
+
+EXTERNAL SOURCES:
+  TKSubmitTransition:
+    :git: https://github.com/entotsu/TKSubmitTransition.git
+
+CHECKOUT OPTIONS:
+  TKSubmitTransition:
+    :commit: 1960d8e644c2dd3aa4585b6ed562f90ec8e13065
+    :git: https://github.com/entotsu/TKSubmitTransition.git
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  AlgoliaSearchClient: 3acecfd630f34585d051c39d6cea3460e416638c
+  Comets: ff75eb4658d612af66073bf9fcf6e8bef274817b
+  Cosmos: 2795b36ad4bbea1af3050d6d65576ed63875f86a
+  CountryPickerView: 6322ada32a80b0cd721b0267282a5c24f406f263
+  CropViewController: 58fb440f30dac788b129d2a1f24cffdcb102669c
+  Down: b6ba1bc985c9d2f4e15e3b293d2207766fa12612
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FBSDKCoreKit: 9d27fe97a2fa2abe5eeefea8240e837623ab88e0
+  Firebase: 7703fc4022824b6d6db1bf7bea58d13b8e17ec46
+  FirebaseAnalytics: a1a24e72b7ba7f47045a4633f1abb545c07bd29c
+  FirebaseCore: 9a2b10270a854731c4d4d8a97d0aa8380ec3458d
+  FirebaseCoreDiagnostics: aaa87098082c4d4bdd1a9557b1186d18ca85ce8c
+  FirebaseCoreInternal: a13302b0088fbf5f38b79b6ece49c2af7d3e05d6
+  FirebaseCrashlytics: 121ea1d37f4906c94c4c9307297af5121b98b789
+  FirebaseInstallations: 61db1054e688d2bdc4e2b3f744c1b086e913b742
+  FirebaseMessaging: 4e220eddd356181469ba2ec5f7d5fafbc2312841
+  Gemini: 4ad915cca8805577fe3021e02feeca2b77dcdbfc
+  GoogleAppMeasurement: 5d69e04287fc2c10cc43724bfa4bf31fc12c3dff
+  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  InjectableLoggers: 7bc1a68fb12d73785d3d50944a3f1744a8cea868
+  InstantSearch: 21fe37d93cce799327a227df3e969d9938ef43da
+  InstantSearchTelemetry: 51bea834d6be87cb42deaf6c124f93baadad6a5b
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  LanguageManager-iOS: 049345fe4d1c5fbe22af93d438540917f4936359
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  lottie-ios: 6bbc53eef6957e4744a50321507015fba72d8ca6
+  Mapbox-iOS-SDK: be0dbe7470db13cbcbf2e69afad714b8e3f24399
+  MapboxDirections: 383df0cd65784897c2269750a42d9654c832f0ce
+  MapboxGeocoder.swift: a288e92ec13fbd65bbdfd7c54c61b0e80d19e734
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PhoneNumberKit: 441e8b26ec88d598e3591de9061eff18f5dd12e8
+  Polyline: fce41d72e1146c41c6d081f7656827226f643dff
+  PromisedFuture: 15ab3542f9d9c9d62886e2228c606a3e0fd16ccd
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  Sentry: a0d4563fa4ddacba31fdcc35daaa8573d87224d6
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVPinView: 9b538d0ba68cdb092afe4f0f67ec84cbed079466
+  SwiftLocation: 609ac8859f2c5d48a6cadd2a58c63b1dae02dc25
+  SwiftProtobuf: 59d9ea2eb5f84b509f32d170a65f3348ae758f1e
+  SwiftyPlistManager: 5895924cccb7fe28deccbe14890e8aed78ae78ae
+  TKSubmitTransition: 644b99291e301a03227fdb9f5709d81e09f6ad18
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  Turf: aaa060138b11a8e979a19e6d81091d156a31bc58
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  ViewAnimator: a9ceed80266e00fd435ec4fb99b2df64d580d0e4
+  Zoomy: 598d7a6d52567e4f8bf2e557907bbd9d7e725664
+
+PODFILE CHECKSUM: 19785e354177b662cc730ccff53f18585dcb03c0
+
+COCOAPODS: 1.11.3

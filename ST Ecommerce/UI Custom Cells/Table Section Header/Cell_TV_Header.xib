@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+        <array key="Lexend-Regular.ttf">
+            <string>Lexend-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell_TV_Header" rowHeight="54" id="KGk-i7-Jjw" customClass="Cell_TV_Header" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="54"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="452" height="54"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Announcements" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ih0-ck-edb">
+                        <rect key="frame" x="16" y="8" width="141" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Oln-g7-9Rk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7a-f8-IAJ">
+                        <rect key="frame" x="16" y="37" width="420" height="1"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVU-Dk-gpM">
+                                <rect key="frame" x="0.0" y="-1" width="70" height="3"/>
+                                <color key="backgroundColor" red="1" green="0.73333333329999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Gbn-So-G45"/>
+                                    <constraint firstAttribute="height" constant="3" id="wxs-2k-nLQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SVU-Dk-gpM" firstAttribute="leading" secondItem="z7a-f8-IAJ" secondAttribute="leading" id="8wK-On-nVe"/>
+                            <constraint firstAttribute="height" constant="1" id="OT8-oz-mnj"/>
+                            <constraint firstItem="SVU-Dk-gpM" firstAttribute="centerY" secondItem="z7a-f8-IAJ" secondAttribute="centerY" id="jAS-OG-jdL"/>
+                        </constraints>
+                    </view>
+                    <label hidden="YES" opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="view all" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mL-X3-5lI">
+                        <rect key="frame" x="387.5" y="18.5" width="48.5" height="17.5"/>
+                        <fontDescription key="fontDescription" name="Lexend-Regular" family="Lexend" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.73333333333333328" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="5mL-X3-5lI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Fvo-9t-xW4"/>
+                    <constraint firstAttribute="trailing" secondItem="5mL-X3-5lI" secondAttribute="trailing" constant="16" id="OVT-B9-cP8"/>
+                    <constraint firstAttribute="trailing" secondItem="z7a-f8-IAJ" secondAttribute="trailing" constant="16" id="Sib-Xz-Txq"/>
+                    <constraint firstAttribute="trailing" secondItem="5mL-X3-5lI" secondAttribute="trailing" constant="16" id="eQM-1S-9Lx"/>
+                    <constraint firstItem="z7a-f8-IAJ" firstAttribute="top" secondItem="Ih0-ck-edb" secondAttribute="bottom" constant="8" id="fL4-jq-Jj8"/>
+                    <constraint firstItem="Ih0-ck-edb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="gzB-Qu-3ne"/>
+                    <constraint firstItem="z7a-f8-IAJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="qyE-3O-WSY"/>
+                    <constraint firstItem="Ih0-ck-edb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="w4J-Ni-OYC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="headerLabel" destination="Ih0-ck-edb" id="adU-8U-D9I"/>
+                <outlet property="viewAllLabel" destination="5mL-X3-5lI" id="jg5-9b-He7"/>
+            </connections>
+            <point key="canvasLocation" x="233.33333333333334" y="94.754464285714278"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lexend-Medium.ttf">
+            <string>Lexend-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SectionHeader" id="5cC-WN-P2G" customClass="SectionHeader" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="54"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Announcements" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owx-HS-caP">
+                    <rect key="frame" x="16" y="8" width="141" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="8Ex-aq-tL4"/>
+                        <constraint firstAttribute="height" constant="21" id="U49-Cy-yhW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lexend-Medium" family="Lexend" pointSize="18"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vMX-ci-djm">
+                    <rect key="frame" x="16" y="37" width="383" height="1"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VcG-hF-u1d">
+                            <rect key="frame" x="0.0" y="-1" width="70" height="3"/>
+                            <color key="backgroundColor" red="1" green="0.73333333329999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="3" id="8gH-s9-ghs"/>
+                                <constraint firstAttribute="width" constant="70" id="kvp-y7-cbK"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="VcG-hF-u1d" firstAttribute="centerY" secondItem="vMX-ci-djm" secondAttribute="centerY" id="6sc-HL-CcW"/>
+                        <constraint firstItem="VcG-hF-u1d" firstAttribute="leading" secondItem="vMX-ci-djm" secondAttribute="leading" id="Fmf-vI-es9"/>
+                        <constraint firstAttribute="height" constant="1" id="XhO-vx-fHX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="2Et-zm-e4i"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vMX-ci-djm" firstAttribute="top" secondItem="owx-HS-caP" secondAttribute="bottom" constant="8" id="BmI-rm-8Eg"/>
+                <constraint firstItem="vMX-ci-djm" firstAttribute="leading" secondItem="5cC-WN-P2G" secondAttribute="leading" constant="16" id="DOj-wK-4JO"/>
+                <constraint firstItem="owx-HS-caP" firstAttribute="leading" secondItem="5cC-WN-P2G" secondAttribute="leading" constant="16" id="FTV-gi-XZ0"/>
+                <constraint firstItem="vMX-ci-djm" firstAttribute="leading" secondItem="owx-HS-caP" secondAttribute="leading" id="Qja-1q-8ei"/>
+                <constraint firstItem="owx-HS-caP" firstAttribute="top" secondItem="2Et-zm-e4i" secondAttribute="top" constant="8" id="rHY-Nq-x0K"/>
+                <constraint firstAttribute="trailing" secondItem="vMX-ci-djm" secondAttribute="trailing" constant="16" id="uIO-kE-WSy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="sectionTitle" destination="owx-HS-caP" id="ci0-sg-Iy0"/>
+            </connections>
+            <point key="canvasLocation" x="162" y="-94"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module InstantSearchTelemetry {
+  umbrella header "InstantSearchTelemetry-umbrella.h"
+
+  export *
+  module * { export * }
+}

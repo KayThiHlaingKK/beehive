@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell_CV_Promotion" id="EEl-dg-PW9" customClass="Cell_CV_Promotion" customModule="ST_Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="202"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gpx-0G-jOe">
+                <rect key="frame" x="0.0" y="0.0" width="182" height="202"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder2" translatesAutoresizingMaskIntoConstraints="NO" id="u8H-8S-wW0">
+                        <rect key="frame" x="0.0" y="0.0" width="182" height="202"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="u8H-8S-wW0" secondAttribute="trailing" id="0z4-WA-92Y"/>
+                    <constraint firstItem="u8H-8S-wW0" firstAttribute="leading" secondItem="gpx-0G-jOe" secondAttribute="leading" id="L0T-sf-tA9"/>
+                    <constraint firstItem="u8H-8S-wW0" firstAttribute="top" secondItem="gpx-0G-jOe" secondAttribute="top" id="W9J-JI-h60"/>
+                    <constraint firstAttribute="bottom" secondItem="u8H-8S-wW0" secondAttribute="bottom" id="oby-kx-gjH"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="imageView" destination="u8H-8S-wW0" id="mrx-dz-Jhc"/>
+            </connections>
+            <point key="canvasLocation" x="-71" y="-45"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder2" width="150" height="136"/>
+    </resources>
+</document>
